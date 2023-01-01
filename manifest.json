@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Meditate Tab",
+  "version": "3.0",
+  "description": "BEST AMAZING BEAUTIFUL FOCUS. TRY IT NOW! MINDFULNESS TAB",
+  "author": "Maximilian",
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "permissions": [
+    "storage"
+  ],
+  "icons": {
+    "48": "icons/48.png",
+    "128": "icons/128.png"
+  }
+}

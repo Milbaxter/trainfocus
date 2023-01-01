@@ -1,0 +1,69 @@
+/* style.css */
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* align elements along the vertical axis */
+    justify-content: center; /* center elements along the vertical axis */
+    background-image: url('webb.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  #start-timer-button {
+    font-size: 54px; /* increased from 18px */
+    padding: 6px 12px;
+    background-color: #1e90ff;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  /* Timer display styles */
+  #timer-display {
+      font-size: 54px;
+      text-align: center;
+  }
+  
+  /* Focus question styles */
+  #focus-question {
+      display: none;
+      font-size: 18px;
+      text-align: center;
+  }
+  
+  /* Yes/no button styles */
+  #yes-no-buttons {
+      display: none;
+      text-align: center;
+  }
+  
+  /* Yes button styles */
+  #yes-button {
+      font-size: 54px;
+      padding: 6px 12px;
+      background-color: green;
+      border-radius: 5px;
+      margin: 5px;
+      text-align: center;
+  }
+  
+  /* No button styles */
+  #no-button {
+      font-size: 54px;
+      padding: 6px 12px;
+      background-color: red;
+      border-radius: 5px;
+      margin: 5px;
+      text-align: center;
+  }
+  
+  /* Hint text styles */
+  #hint-text {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 36px;
+  }
+  
